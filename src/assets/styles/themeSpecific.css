@@ -1,0 +1,144 @@
+/* PROGRAMMING */
+
+.programming {
+  background-image: url("../theme_PROGRAMMING_bg.webp");
+}
+.feature-programming-1 {
+  background-image: url(@/assets/Features/feature_PROGRAMMING_1.webp);
+}
+.feature-programming-2 {
+  background-image: url(@/assets/Features/feature_PROGRAMMING_2.webp);
+}
+.feature-programming-3 {
+  background-image: url(@/assets/Features/feature_PROGRAMMING_3.webp);
+}
+.feature-programming-4 {
+  background-image: url(@/assets/Features/feature_PROGRAMMING_4.webp);
+}
+.feature-programming-5 {
+  background-image: url(@/assets/Features/feature_PROGRAMMING_5.webp);
+}
+
+/* TECHNOLOGY */
+
+.technology {
+  background-image: url("../theme_TECHNOLOGY_bg.webp");
+}
+.feature-technology-1 {
+  background-image: url(@/assets/Features/feature_TECHNOLOGY_1.webp);
+}
+.feature-technology-2 {
+  background-image: url(@/assets/Features/feature_TECHNOLOGY_2.webp);
+}
+.feature-technology-3 {
+  background-image: url(@/assets/Features/feature_TECHNOLOGY_3.webp);
+}
+.feature-technology-4 {
+  background-image: url(@/assets/Features/feature_TECHNOLOGY_4.webp);
+}
+.feature-technology-5 {
+  background-image: url(@/assets/Features/feature_TECHNOLOGY_5.webp);
+}
+
+/* VUE */
+
+.vuejs {
+  background-image: url("../theme_VUE_bg.webp");
+}
+.feature-vue-1 {
+  background-image: url(@/assets/Features/feature_VUE_1.webp);
+}
+
+.feature-vue-2 {
+  background-image: url(@/assets/Features/feature_VUE_2.webp);
+}
+
+/* SPACE */
+
+.space {
+  background-image: url("../theme_SPACE_bg.webp");
+}
+
+.feature-space-1 {
+  background-image: url(@/assets/Features/feature_SPACE_1.webp);
+}
+
+.feature-space-2 {
+  background-image: url(@/assets/Features/feature_SPACE_2.webp);
+}
+
+.feature-space-4 {
+  background-image: url(@/assets/Features/feature_SPACE_4.webp);
+}
+
+/* JAPAM */
+
+.japan {
+  background-image: url("../theme_JAPAN_bg.webp");
+}
+
+.feature-japan-1 {
+  background-image: url(@/assets/Features/feature_JAPAN_1.webp);
+}
+.feature-japan-2 {
+  background-image: url(@/assets/Features/feature_JAPAN_2.webp);
+}
+.feature-japan-3 {
+  background-image: url(@/assets/Features/feature_JAPAN_3.webp);
+}
+.feature-japan-4 {
+  background-image: url(@/assets/Features/feature_JAPAN_4.webp);
+}
+.feature-japan-5 {
+  background-image: url(@/assets/Features/feature_JAPAN_5.webp);
+}
+.feature-japan-7 {
+  background-image: url(@/assets/Features/feature_JAPAN_7.webp);
+}
+.feature-japan-8 {
+  background-image: url(@/assets/Features/feature_JAPAN_8.webp);
+}
+
+/* COFFEE */
+
+.coffee {
+  background-image: url("../theme_COFFEE_bg.webp");
+}
+
+.feature-coffee-1 {
+  background-image: url(@/assets/Features/feature_COFFEE_1.webp);
+}
+.feature-coffee-2 {
+  background-image: url(@/assets/Features/feature_COFFEE_2.webp);
+}
+.feature-coffee-3 {
+  background-image: url(@/assets/Features/feature_COFFEE_3.webp);
+}
+.feature-coffee-4 {
+  background-image: url(@/assets/Features/feature_COFFEE_4.webp);
+}
+
+/* ART */
+
+.art {
+  background-image: url("../theme_ART_bg.webp");
+}
+
+.feature-art-1 {
+  background-image: url(@/assets/Features/feature_ART_1.webp);
+}
+.feature-art-2 {
+  background-image: url(@/assets/Features/feature_ART_2.webp);
+}
+.feature-art-3 {
+  background-image: url(@/assets/Features/feature_ART_3.webp);
+}
+.feature-art-4 {
+  background-image: url(@/assets/Features/feature_ART_4.webp);
+}
+.feature-art-5 {
+  background-image: url(@/assets/Features/feature_ART_5.webp);
+}
+.feature-art-6 {
+  background-image: url(@/assets/Features/feature_ART_6.webp);
+}

@@ -1,0 +1,25 @@
+Structure;
+
+Pages:
+    * HomePage
+    * Projects
+    * About
+    * Contact
+
+Themes: 
+    Primary: 
+        * Programming
+        * Technology
+        * VUE
+
+    Secundary:
+        * Coffee
+        * Japan
+        * Photography
+        * Bass Music
+
+
+Themes:
+
+Plugins: 
+https://www.npmjs.com/package/vue3-circle-progress?activeTab=readme

@@ -1,0 +1,9 @@
+html {
+  background-image: url("../theme_JAPAN_bg.webp"), url("../theme_SPACE_bg.webp"),
+    url("../theme_PROGRAMMING_bg.webp"), url("../theme_COFFEE_bg.webp"),
+    url("../theme_VUE_bg.webp"), url("../theme_TECHNOLOGY_bg.webp"),
+    url("../theme_ART_bg.webp");
+  background-size: 0;
+}
+
+/* Buttons & Links. Nav, ProjectOverview */
