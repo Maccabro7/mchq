@@ -11,11 +11,11 @@ const routes = [
     name: "home",
     component: HomeView,
   },
-  {
-    path: "/projects",
-    name: "projects",
-    component: ProjectsView,
-  },
+  // {
+  //   path: "/#projects",
+  //   name: "projects",
+  //   component: ProjectsView,
+  // },
   {
     path: "/about",
     name: "about",
@@ -36,6 +36,18 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    if (to.hash) {
+      return { el: to.hash, behavior: "smooth" };
+    }
+    return {
+      x: 0,
+      y: 0,
+    };
+  },
 });
 
 export default router;

@@ -1,5 +1,5 @@
 <template>
-  <div class="overview-container">
+  <div id="projects" class="overview-container">
     <div class="arrow" @click="handleArrow('left')">
       <span class="material-symbols-outlined"> chevron_left </span>
     </div>

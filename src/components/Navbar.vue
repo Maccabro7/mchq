@@ -3,8 +3,10 @@
     <div class="nav nav-container">
       <CircleProgressVue />
       <div class="nav nav-items">
-        <router-link to="/">Home</router-link>
-        <router-link to="projects">Projects</router-link>
+        <router-link :to="{ name: 'home' }">Home</router-link>
+        <router-link class="nav-hash" :to="{ name: 'home', hash: '#projects' }"
+          >Projects</router-link
+        >
         <router-link to="about">About</router-link>
       </div>
       <div class="nav nav-contact">
@@ -86,8 +88,8 @@ a::after {
 a:hover::after {
   width: 130%;
   left: -15%;
-
   box-shadow: 0 0 16px 8px v-bind(themeLow);
+  opacity: 100;
 }
 
 nav a.router-link-exact-active {
@@ -103,5 +105,30 @@ nav a.router-link-exact-active::after {
   height: 2px;
   bottom: -3px;
   left: 18%;
+}
+
+.nav-hash {
+  color: rgb(217, 217, 217) !important;
+  font-weight: 500 !important;
+}
+
+.nav-hash::after {
+  text-decoration: none;
+  content: "";
+  width: 0;
+  background: v-bind(themeAccent);
+  position: absolute;
+  height: 2px;
+  bottom: -3px;
+  left: 50%;
+  transition: 0.5s ease-out;
+  opacity: 0 !important;
+}
+
+.nav-hash:hover::after {
+  opacity: 100 !important;
+  width: 130%;
+  left: -15%;
+  box-shadow: 0 0 16px 8px v-bind(themeLow);
 }
 </style>
