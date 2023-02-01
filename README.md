@@ -2,8 +2,6 @@
 
 USES VITE
 
-This should dissappear
-
 ## Project setup
 
 ```
