@@ -11,7 +11,7 @@ import NavbarVue from "./Navbar.vue";
 import HeroThemeTitle from "./HeroSection/HeroThemeTitle.vue";
 import HeroProjectsOverview from "./HeroSection/HeroProjectsOverview.vue";
 
-import { useThemeStore } from "@/Store/ThemeStore";
+import { useThemeStore } from "../Store/ThemeStore";
 import { storeToRefs } from "pinia";
 
 export default {

@@ -17,12 +17,12 @@
 </template>
 
 <script>
-import { useThemeStore } from "@/Store/ThemeStore";
-import HeroSection from "@/components/HeroSection.vue";
-import ProjectsOverviewSection from "@/components/ProjectsOverviewSection.vue";
-import FeatureDisplay from "@/components/FeatureDisplay.vue";
-import MyProfile from "@/components/MyProfile.vue";
-import Footer from "@/components/Footer.vue";
+import { useThemeStore } from "../Store/ThemeStore";
+import HeroSection from "../components/HeroSection.vue";
+import ProjectsOverviewSection from "../components/ProjectsOverviewSection.vue";
+import FeatureDisplay from "../components/FeatureDisplay.vue";
+import MyProfile from "../components/MyProfile.vue";
+import Footer from "../components/Footer.vue";
 import { ref } from "@vue/reactivity";
 import { storeToRefs } from "pinia";
 

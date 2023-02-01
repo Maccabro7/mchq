@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { useThemeStore } from "@/Store/ThemeStore";
+import { useThemeStore } from "../Store/ThemeStore";
 import { storeToRefs } from "pinia";
 export default {
   setup() {

@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import { useDataStore } from "@/Store/DataStore";
-import { useThemeStore } from "@/Store/ThemeStore";
+import { useDataStore } from "../../Store/DataStore";
+import { useThemeStore } from "../../Store/ThemeStore";
 import { storeToRefs } from "pinia";
 
 export default {

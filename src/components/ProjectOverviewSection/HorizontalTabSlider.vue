@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import { useThemeStore } from "@/Store/ThemeStore";
+import { useThemeStore } from "../../Store/ThemeStore";
 import { storeToRefs } from "pinia";
-import { useDataStore } from "@/Store/DataStore";
+import { useDataStore } from "../../Store/DataStore";
 export default {
   setup() {
     const storeData = useDataStore();

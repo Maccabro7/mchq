@@ -1,4 +1,4 @@
-import { useThemeStore } from "@/Store/ThemeStore";
+import { useThemeStore } from "../Store/ThemeStore";
 import { storeToRefs } from "pinia";
 
 //Insert Themes, Title and Theme follow same Index

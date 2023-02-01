@@ -15,7 +15,7 @@
 
 <script>
 // import "@fontsource/metropolis";
-import themeControl from "@/composables/ThemeController";
+import themeControl from "./composables/ThemeController";
 import { useThemeStore } from "./Store/ThemeStore";
 import { storeToRefs } from "pinia";
 export default {
