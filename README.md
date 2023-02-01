@@ -2,8 +2,6 @@
 
 USES VITE
 
-Ignore everything thats below
-
 ## Project setup
 
 ```
