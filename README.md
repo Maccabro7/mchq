@@ -2,6 +2,8 @@
 
 USES VITE
 
+This should be here
+
 ## Project setup
 
 ```
