@@ -17,7 +17,7 @@
 import "vue3-circle-progress/dist/circle-progress.css";
 import CircleProgress from "vue3-circle-progress";
 
-import { useThemeStore } from "../Store/ThemeStore";
+import { useThemeStore } from "../../Store/ThemeStore";
 import { storeToRefs } from "pinia";
 
 export default {

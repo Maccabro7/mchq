@@ -9,7 +9,12 @@
           :to="{ name: 'home', hash: '#projects' }"
           >Projects</router-link
         >
-        <router-link to="about-me">About</router-link>
+        <!-- <router-link to="about-me">About</router-link> -->
+        <router-link
+          class="m1_nav-hash"
+          :to="{ name: 'home', hash: '#mc_profile-hash' }"
+          >About</router-link
+        >
       </div>
       <div class="m1_nav m1_nav-contact">
         <router-link to="contact">Contact</router-link>

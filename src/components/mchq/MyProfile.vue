@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-container">
+  <div class="profile-container" id="mc_profile-hash">
     <div class="profile-box">
       <div class="profile-avatar"></div>
       <div class="profile-side">

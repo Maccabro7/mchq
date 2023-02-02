@@ -16,11 +16,11 @@ const routes = [
   //   name: "about",
   //   component: AboutView,
   // },
-  {
-    path: "/about-me",
-    name: "about-me",
-    component: AboutView,
-  },
+  // {
+  //   path: "/aboutme",
+  //   name: "mc-about-me",
+  //   component: AboutView,
+  // },
   {
     path: "/contact",
     name: "contact",

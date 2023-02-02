@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import ProjectOverview from "./ProjectOverviewSection/ProjectOverview.vue";
-import HorizontalTabSlider from "./ProjectOverviewSection/HorizontalTabSlider.vue";
+import ProjectOverview from "./ProjectOverview.vue";
+import HorizontalTabSlider from "./HorizontalTabSlider.vue";
 export default {
   components: { ProjectOverview, HorizontalTabSlider },
 };

@@ -13,11 +13,11 @@
 
 <script>
 import { useThemeStore } from "../Store/ThemeStore";
-import HeroSection from "../components/HeroSection.vue";
-import ProjectsOverviewSection from "../components/ProjectsOverviewSection.vue";
-import FeatureDisplay from "../components/FeatureDisplay.vue";
-import MyProfile from "../components/MyProfile.vue";
-import Footer from "../components/Footer.vue";
+import HeroSection from "../components/mchq/HeroSection.vue";
+import ProjectsOverviewSection from "../components/mchq/ProjectsOverviewSection.vue";
+import FeatureDisplay from "../components/mchq/FeatureDisplay.vue";
+import MyProfile from "../components/mchq/MyProfile.vue";
+import Footer from "../components/mchq/Footer.vue";
 import { ref } from "@vue/reactivity";
 import { storeToRefs } from "pinia";
 
