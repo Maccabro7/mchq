@@ -7,7 +7,7 @@
         <router-link class="nav-hash" :to="{ name: 'home', hash: '#projects' }"
           >Projects</router-link
         >
-        <router-link to="about">About</router-link>
+        <router-link to="about-me">About</router-link>
       </div>
       <div class="nav nav-contact">
         <router-link to="contact">Contact</router-link>
