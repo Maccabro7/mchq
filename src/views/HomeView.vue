@@ -2,18 +2,13 @@
   <div class="heroContainer" :class="theme">
     <HeroSection />
   </div>
-  <div class="myprofileContainer">
-    <MyProfile />
-  </div>
-  <div class="projectsContainer">
-    <ProjectsOverviewSection />
-  </div>
-  <div class="featureContainer">
-    <FeatureDisplay />
-  </div>
-  <div class="footerContainer">
-    <Footer />
-  </div>
+  <ProjectsOverviewSection />
+
+  <MyProfile />
+
+  <FeatureDisplay />
+
+  <Footer />
 </template>
 
 <script>
@@ -42,7 +37,7 @@ export default {
     const themeBG = ref("");
     const theme = storeRefs.theme.value;
     themeBG.value = storeRefs.themeBG.value;
-    return { store, themeBG, storeRefs, theme };
+    return { storeRefs, theme };
   },
   computed: {},
 };
