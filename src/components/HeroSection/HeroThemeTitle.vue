@@ -16,18 +16,12 @@ export default {
     const { themeFont, theme, themeSubTitle, themeFeature } =
       storeToRefs(storeTheme);
 
-    const themeFea2ture = "";
-
     return { themeFont, theme, themeSubTitle, themeFeature };
   },
 };
 </script>
 
 <style>
-/* .title-container {
-  margin-bottom: 275px;
-} */
-
 .title-container {
   font-family: v-bind(themeFont);
   /* transition: 1s ease-out; */

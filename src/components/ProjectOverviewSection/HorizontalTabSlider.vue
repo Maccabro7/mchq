@@ -19,21 +19,15 @@
 </template>
 
 <script>
-import { useThemeStore } from "../../Store/ThemeStore";
-import { storeToRefs } from "pinia";
 import { useDataStore } from "../../Store/DataStore";
 export default {
   setup() {
     const storeData = useDataStore();
-    const storeTheme = useThemeStore();
-    const { themeAccent, themeLow } = storeToRefs(storeTheme);
-
-    // const presentTab = ref(1);
 
     const handleTabClick = (tab) => {
       storeData.presentTab = tab;
     };
-    return { handleTabClick, themeAccent, themeLow, storeData };
+    return { handleTabClick, storeData };
   },
 };
 </script>
@@ -46,13 +40,13 @@ export default {
 .horizontal-tab {
   width: calc(100% / 3);
   height: 8px;
-  background-color: v-bind(themeLow);
+  /* background-color: v-bind(themeLow); */
   transition: 0.5s ease-out;
   cursor: pointer;
 }
 
 .horizontal-tab:hover {
-  box-shadow: 0 0 16px 4px v-bind(themeLow);
+  /* box-shadow: 0 0 16px 4px v-bind(themeLow); */
   /* border-radius: 60px; */
 }
 
@@ -64,6 +58,6 @@ export default {
 }
 
 .horizontalTabColor {
-  background-color: v-bind(themeAccent);
+  /* background-color: v-bind(themeAccent); */
 }
 </style>

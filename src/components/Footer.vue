@@ -3,7 +3,9 @@
     <div class="footer-bar-top"></div>
     <div class="footer-box">
       <div class="dev">
-        <p>Developed with <a href="https://vuejs.org">VueJS</a></p>
+        <p>
+          Developed with <a href="https://vuejs.org" id="footer-vue">VueJS</a>
+        </p>
 
         <p>-</p>
         <p>{{ yearNow }}</p>
@@ -15,15 +17,11 @@
 </template>
 
 <script>
-import { useThemeStore } from "../Store/ThemeStore";
-import { storeToRefs } from "pinia";
 export default {
   setup() {
-    const storeTheme = useThemeStore();
-    const { themeAccent, themeLow } = storeToRefs(storeTheme);
     const yearNow = new Date().getFullYear();
 
-    return { yearNow, themeAccent, themeLow };
+    return { yearNow };
   },
 };
 </script>
@@ -37,14 +35,14 @@ export default {
   width: 13%;
   margin: 0 auto;
   height: 2px;
-  background-color: v-bind(themeAccent);
+  /* background-color: v-bind(themeAccent); check App.vue */
   transition: 1s ease-out;
 }
 .footer-bar-bot {
   width: 100%;
   margin: 0 auto;
   height: 5px;
-  background-color: v-bind(themeAccent);
+  /* background-color: v-bind(themeAccent); check App.vue */
   transition: 1s ease-out;
 }
 
@@ -63,13 +61,15 @@ export default {
   align-items: center;
 }
 
-.dev a {
+/* .dev a {
+  text-decoration: none;
+  color: #41b883;
+  font-weight: 600;
+} */
+
+#footer-vue {
   text-decoration: none;
   color: #41b883;
   font-weight: 600;
 }
-
-/* .dev a:hover {
-
-} */
 </style>
