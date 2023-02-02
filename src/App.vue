@@ -1,5 +1,5 @@
 <template>
-  <div class="preload-fonts">
+  <div class="m1_preload-fonts">
     <p style="font-family: 'Source Code Pro'">Hi!</p>
     <p style="font-family: 'Yeon Sung'">How you doing?</p>
     <p style="font-family: 'Irish Grover'">You</p>
@@ -82,7 +82,7 @@ h1 {
 /* Hide Preloaded Fonts */
 /* ************************ */
 
-.preload-fonts {
+.m1_preload-fonts {
   position: absolute;
   z-index: -1;
   opacity: 0;
@@ -145,12 +145,12 @@ a.router-link-exact-active::after {
   left: 18%;
 }
 
-.nav-hash {
+.m1_nav-hash {
   color: rgb(217, 217, 217) !important;
   font-weight: 500 !important;
 }
 
-.nav-hash::after {
+.m1_nav-hash::after {
   text-decoration: none;
   content: "";
   width: 0;
@@ -163,7 +163,7 @@ a.router-link-exact-active::after {
   opacity: 0 !important;
 }
 
-.nav-hash:hover::after {
+.m1_nav-hash:hover::after {
   opacity: 100 !important;
   width: 130%;
   left: -15%;

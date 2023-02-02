@@ -1,6 +1,6 @@
 <template>
-  <div class="page-container">
-    <div class="page-box">
+  <div class="m1_page-container">
+    <div class="m1_page-box">
       <ProjectOverview />
       <HorizontalTabSlider />
     </div>
@@ -16,12 +16,12 @@ export default {
 </script>
 
 <style scoped>
-.page-container {
+.m1_page-container {
   background-color: black;
   height: max-content;
   padding: 128px 0;
 }
-.page-box {
+.m1_page-box {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;

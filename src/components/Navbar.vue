@@ -1,15 +1,17 @@
 <template>
-  <nav class="nav-box">
-    <div class="nav nav-container">
+  <nav class="m1_nav-box">
+    <div class="m1_nav m1_nav-container">
       <CircleProgressVue />
-      <div class="nav nav-items">
+      <div class="m1_nav m1_nav-items">
         <router-link :to="{ name: 'home' }">Home</router-link>
-        <router-link class="nav-hash" :to="{ name: 'home', hash: '#projects' }"
+        <router-link
+          class="m1_nav-hash"
+          :to="{ name: 'home', hash: '#projects' }"
           >Projects</router-link
         >
         <router-link to="about-me">About</router-link>
       </div>
-      <div class="nav nav-contact">
+      <div class="m1_nav m1_nav-contact">
         <router-link to="contact">Contact</router-link>
       </div>
     </div>
@@ -27,7 +29,7 @@ export default {
 <style>
 /* Links / Anchor tags are in App.vue */
 
-.nav {
+.m1_nav {
   display: flex;
   flex-direction: row;
   color: white;
@@ -35,17 +37,17 @@ export default {
   align-items: center;
 }
 
-.nav-container {
+.m1_nav-container {
   max-width: 1100px;
   padding: 1rem 0;
   margin: 0 auto;
 }
 
-.nav-box {
+.m1_nav-box {
   background: linear-gradient(#000000, #00000060 70%, #00000020 88%, #00000000);
 }
 
-.nav-items {
+.m1_nav-items {
   gap: 3rem;
   padding: 7px 0;
 }
